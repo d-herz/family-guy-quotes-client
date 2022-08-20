@@ -13,5 +13,30 @@ body{
   background-color: red;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
+  max-width: 100%;
+  max-height: 100vh;
 }
 
+/* HEADER */
+
+header{
+
+
+}
+
+
+
+/* MAIN */
+
+main{
+
+
+}
+
+
+
+/*CLASSES*/
+
+.hidden{
+  display: none;
+}
