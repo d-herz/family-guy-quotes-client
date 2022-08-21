@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 
+/* HTML */
 
 html{
   font-size: 62.5%;
 }
+
+/* BODY */
 
 body{
   background-color: red;
@@ -30,12 +33,28 @@ header{
 /* MAIN */
 
 main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  max-height: 35%;
+  margin: 5%;
 
 
 }
 
+main>button{
+  max-width: 10%;
+  margin: 0 auto;
+}
+
+main>button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
 main section{
-  height: 
+  height: 25%;
 }
 
 
