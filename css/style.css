@@ -13,19 +13,27 @@ html{
 /* BODY */
 
 body{
+  border: 2px solid black;
   background-color: red;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 2rem;
   max-width: 100%;
   max-height: 100vh;
+  line-height: 1.15;
 }
 
 /* HEADER */
 
 header{
+  border: 2px solid black;
+  margin: 2%;
 
 
+}
+
+header>img {
+  max-height: 8em;
 }
 
 
@@ -33,13 +41,13 @@ header{
 /* MAIN */
 
 main{
+  border: 2px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   border: 2px solid black;
   max-height: 35%;
   margin: 5%;
-
 
 }
 
@@ -54,7 +62,7 @@ main>button:hover {
 }
 
 main section{
-  height: 25%;
+  min-height: 25%;
 }
 
 
