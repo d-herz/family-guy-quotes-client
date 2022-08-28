@@ -9,7 +9,7 @@ document.querySelector('button').addEventListener('click', getFetch)
 function getFetch(){
 
   //assign the heroku link to a variable for use later
-  const url = `https://breaking-bad-database-builder.herokuapp.com/api`
+  const url = `https://family-guy-database-builder.herokuapp.com/api`
 
   //on function call, add class of 'hidden' to all of the image containers (so they disappear)
   document.querySelector('#PG').classList.add('hidden')
