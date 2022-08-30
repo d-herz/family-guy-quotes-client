@@ -42,6 +42,9 @@ function getFetch(){
 
       document.querySelector('h3').innerText = '-' + data[num].author
 
+
+      //now conditionals to show/un-hide the images
+
     })
     
     .catch(err => {
