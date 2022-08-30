@@ -34,6 +34,14 @@ function getFetch(){
     .then(res => res.json())
     .then(data => {
       console.log(data[1].quote)
+      //random num generator for quote index
+      let num = Math.floor(Math.random() *data.length) 
+
+      //these 2 query selectors insert the quote into h2 and author into h3
+      document.querySelector('h2').innerText = '"'+data[num].quote+'"'
+
+      document.querySelector('h3').innerText = '-' + data[num].author
+
     })
     
     .catch(err => {
