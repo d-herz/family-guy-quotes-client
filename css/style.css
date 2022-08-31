@@ -63,7 +63,8 @@ main>button{
   border: 2px solid blue;
   border-radius: 20%;
   color: white;
-  max-width: 15%;
+  font-weight: bold;
+  max-width: 20%;
   margin: 2% auto;
   padding: 0.5rem;
 }
@@ -82,6 +83,7 @@ main > section{
   color: white;
   font-weight: 400;
   letter-spacing: .10rem;
+  line-height: 1.5;
   margin: 1% 10% 2% 10%;
 }
 
