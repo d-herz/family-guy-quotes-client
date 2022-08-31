@@ -45,6 +45,39 @@ function getFetch(){
 
       //now conditionals to show/un-hide the images
 
+      if(data[num].author ==='Peter Griffin'){
+        document.getElementById('PG').classList.remove('hidden')
+
+      }else if(data[num].author ==='Stewie Griffin'){
+        document.getElementById('SG').classList.remove('hidden')
+        
+      }else if(data[num].author ==='Brian Griffin'){
+        document.getElementById('BG').classList.remove('hidden')
+        
+      }else if(data[num].author ==='Lois Griffin'){
+        document.getElementById('LG').classList.remove('hidden')
+        
+      }else if(data[num].author ==='Chris Griffin'){
+        document.getElementById('CG').classList.remove('hidden')
+        
+      }else if(data[num].author ==='Meg Griffin'){
+        document.getElementById('MG').classList.remove('hidden')
+        
+      }else if(data[num].author ==='Glen Quagmire'){
+        document.getElementById('GQ').classList.remove('hidden')
+        
+      }else if(data[num].author ==='Joe Swanson'){
+        document.getElementById('JS').classList.remove('hidden')
+        
+      }else if(data[num].author ==='Cleveland Brown'){
+        document.getElementById('CB').classList.remove('hidden')
+        
+      }else if(data[num].author ==='Mayor West'){
+        document.getElementById('MW').classList.remove('hidden')
+        
+      }
+
+
     })
     
     .catch(err => {
