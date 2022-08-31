@@ -12,12 +12,11 @@ html{
 
 /* BODY */
 body{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   background-color: red;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(115, 115, 115, 0.7)),url('/assets/background/spooner.png');
   background-size: cover;
   background-attachment: fixed;
-
   font-family: 'Libre Baskerville', serif;
   text-align: center;
   font-size: 2rem;
@@ -28,7 +27,7 @@ body{
 
 /* HEADER */
 header{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   /* margin: 1% 0.5%; */
   font-size: 2rem;
   color: white;
@@ -49,7 +48,7 @@ header h1{
 
 /* MAIN */
 main{
-  border: 2px solid black;
+  /* border: 2px solid black; */
 
   display: flex;
   flex-direction: column;
@@ -78,7 +77,7 @@ main>button:hover {
 /* MAIN > SECTION */
 main > section{
   background: linear-gradient(0.25turn, rgba(0,0,0,.8), rgba(0,0,0,.6));
-  /* border: 2px solid white; */
+  border: 2px solid white;
   border-radius: 6rem;
   color: white;
   font-weight: 400;
@@ -102,10 +101,10 @@ section h3{
 
 
 /* MAIN > DIV > IMAGE CONTAINER */
-.img-container{
-  border: 2px solid white;
-  flex-grow: 3;
-}
+/* .img-container{
+   border: 2px solid white; 
+  
+} */
 
 div img{
   max-height: 250px;
@@ -115,15 +114,22 @@ div img{
 /* FOOTER */
 footer{
   background: linear-gradient(to top, rgba(0,0,0,.75), rgba(0,0,0,0));
-  border: 2px solid black;
+  /* border: 2px solid black; */
   color: white;
   font-size: 1.5rem;
   letter-spacing: .25rem;
   line-height: 1.25;
+  margin-top: 5%;
+  padding: 5%;
 }
 
 footer > section{
-  margin: 2%;
+  background: linear-gradient(0.25turn, rgba(0,0,0,.8), rgba(0,0,0,.6));
+  border: 2px solid white;
+  border-radius: 6rem;
+  font-size: 1.25rem;
+  margin: 2% 20%;
+  padding: 1%;
 }
 
 footer > section > p > a:visited {
@@ -132,10 +138,6 @@ footer > section > p > a:visited {
 
 
 /*CLASSES*/
-.footer{
-  flex-grow: 0;
-  flex-shrink: 0;
-}
 
 .hidden{
   display: none;

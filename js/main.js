@@ -1,6 +1,9 @@
 //add class of 'hidden' to section, which (from CSS) will set display to 'none'
 document.querySelector('section').classList.add('hidden')
 
+//do same to footer
+document.querySelector('footer').classList.add('hidden')
+
 //add event listener to the button, when button clicked run the getFetch function
 document.querySelector('button').addEventListener('click', getFetch)
 
@@ -23,10 +26,13 @@ function getFetch(){
   document.querySelector('#CB').classList.add('hidden')
   document.querySelector('#MW').classList.add('hidden')
 
-  //This conditional checks if the section is hidden, and unhides it. Mostly for asthetics so we don't have an empty container sitting there before the button is clicked for the first time
+  //This conditional checks if the section & footer are hidden (as they should be before a quote is displayed), and unhides it. Mostly for asthetics so we don't have an empty container sitting there before the button is clicked for the first time
   if( document.querySelector('section').classList.contains('hidden')){
     document.querySelector('section').classList.toggle('hidden')
+    document.querySelector('footer').classList.toggle('hidden')
   }
+
+  
 
   //this is our fetch function with a parameter of URL declared earlier
   //the 2nd .then is where we decide what to do with the objects being returned to us, which contain the quotes and author
