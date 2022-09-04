@@ -39,7 +39,7 @@ function getFetch(){
   fetch(url)
     .then(res => res.json())
     .then(data => {
-      console.log(data[1].quote)
+      // console.log(data[1].quote)
       //random num generator for quote index
       let num = Math.floor(Math.random() *data.length) 
 
