@@ -53,7 +53,7 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 2%;
+  margin: 2% 5%;
   min-height: 5rem;
 }
 
@@ -103,13 +103,14 @@ section h3{
 
 
 /* MAIN > DIV > IMAGE CONTAINER */
-/* .img-container{
-   border: 2px solid white; 
-  
-} */
+.img-container{
+  /* border: 2px solid white;  */
+  margin: 4% 0 2% 0 ;
+}
 
 div img{
   max-height: 250px;
+  
 }
 
 

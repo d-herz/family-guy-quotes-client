@@ -24,6 +24,7 @@ function getFetch(){
   document.querySelector('#GQ').classList.add('hidden')
   document.querySelector('#JS').classList.add('hidden')
   document.querySelector('#CB').classList.add('hidden')
+  document.querySelector('#DH').classList.add('hidden')
   document.querySelector('#MW').classList.add('hidden')
 
   //This conditional checks if the section & footer are hidden (as they should be before a quote is displayed), and unhides it. Mostly for asthetics so we don't have an empty container sitting there before the button is clicked for the first time
@@ -81,8 +82,10 @@ function getFetch(){
       }else if(data[num].author ==='Mayor West'){
         document.getElementById('MW').classList.remove('hidden')
         
-      }
+      }else if(data[num].author ==='Dr. Hartman'){
+        document.getElementById('DH').classList.remove('hidden')
 
+      }
 
     })
     
