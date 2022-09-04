@@ -15,7 +15,7 @@
 <ul>
 <li> Front-end created using HTML, CSS, & JavaScript </li>
 <li> All the Front-end code was written from scratch </li>
-<li> This page is Hosted on <a href="https://app.netlify.com/drop"> Netlify </a> </li>
+<!--- <li> This page is Hosted on <a href="https://app.netlify.com/drop"> Netlify </a> </li> --->
 <li> I also created the server-side API code using Node.js/Express </li> 
 <li> The API is hosted on Heroku </li>
 <li> The MongoDB quotes Database currently has over 80 quotes (and growing!) </li>
