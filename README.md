@@ -7,7 +7,7 @@
 
 <h3 align="left">About this project:</h3>
 <p align="left">
- A spinoff of my popular "Breaking Bad Quotes!" page, this is the client-side page for my 'Family Guy Quotes!' API. When you click the 'Get Random Quote' button, a random quote from the hit animated FOX show "Family Guy" will be pulled from my database and displayed for your amusement!
+This is the client-side page for my "Family Guy Quotes!" API, which is a spinoff of my popular "Breaking Bad Quotes!" page. When you click the 'Get Random Quote' button, a random quote from the hit animated FOX show "Family Guy" will be pulled from my database and displayed for your amusement!
 </p>
 
 <h3 align="left">Quick facts about this project:</h3>
