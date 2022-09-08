@@ -70,7 +70,7 @@ function getFetch(){
       }else if(data[num].author ==='Meg Griffin'){
         document.getElementById('MG').classList.remove('hidden')
         
-      }else if(data[num].author ==='Glen Quagmire'){
+      }else if(data[num].author ==='Glenn Quagmire'){
         document.getElementById('GQ').classList.remove('hidden')
         
       }else if(data[num].author ==='Joe Swanson'){
