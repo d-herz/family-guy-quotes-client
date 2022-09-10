@@ -33,8 +33,6 @@ function getFetch(){
     document.querySelector('footer').classList.toggle('hidden')
   }
 
-  
-
   //this is our fetch function with a parameter of URL declared earlier
   //the 2nd .then is where we decide what to do with the objects being returned to us, which contain the quotes and author
   fetch(url)
