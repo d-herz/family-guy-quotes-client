@@ -23,10 +23,16 @@ This is the client-side page for my "Family Guy Quotes!" API, which is a spinoff
 </ul>
 </p>
 
+<p align="center">
+  <img src="https://github.com/d-herz/family-guy-quotes-client/blob/main/fg-readme.gif" alt="animated" />
+</p>
+
+
 <h3 align="left">Recent Updates:</h3>
 <p align="left">
 I've recently added:
 <ul>
+<li> Quotes from main cast </li>
 <li> Mobile and Desktop Responsivity </li>
 <li> Images for quoted characters </li>
 <li> Additional quotes to my MongoDB database</li>
@@ -36,8 +42,6 @@ I've recently added:
 </ul>
 </p>
 
-
-![](https://github.com/d-herz/family-guy-quotes-client/blob/main/fg-readme.gif)
 
 <h3 align="left">Languages and Tools Used to Create this Project:</h3>
 <p align="left"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>  <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a></p>
