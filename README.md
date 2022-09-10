@@ -3,7 +3,7 @@
 <h1 align="center"> Family Guy Quotes! </h1>
 
 <h3 align="center">Client Side of 'Family Guy Quotes!' API</h3>
-<!--- <h3 align="center"> <a href="https://quotes-of-breakingbad.netlify.app/">Visit the live site</a></h3> --->
+<h3 align="center"> <a href="https://family-guy-quotes.netlify.app/">Visit the live site</a></h3>
 
 <h3 align="left">About this project:</h3>
 <p align="left">
