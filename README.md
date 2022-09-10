@@ -18,7 +18,7 @@ This is the client-side page for my "Family Guy Quotes!" API, which is a spinoff
 <!--- <li> This page is Hosted on <a href="https://app.netlify.com/drop"> Netlify </a> </li> --->
 <li> I also created the server-side API code using Node.js/Express </li> 
 <li> The API is hosted on Heroku </li>
-<li> The MongoDB quotes Database currently has over 80 quotes (and growing!) </li>
+<li> The MongoDB quotes Database currently has over 100 quotes (and growing!) </li>
 <!----- <li> </li> ---->
 </ul>
 </p>
