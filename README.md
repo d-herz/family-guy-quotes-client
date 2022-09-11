@@ -32,12 +32,11 @@ This is the client-side page for my "Family Guy Quotes!" API, which is a spinoff
 <p align="left">
 I've recently added:
 <ul>
-<li> Quotes from main cast </li>
+<li> Quotes from additional cast members </li>
 <li> Mobile and Desktop Responsivity </li>
 <li> Images for quoted characters </li>
-<li> Additional quotes to my MongoDB database</li>
 <li> A back-end server API, hosted on Heroku</li> 
-<li>A CRUD based 'Database-builder' site for adding quotes to my MongoDB </li>
+<li> A CRUD based 'Database-builder' site for adding quotes to the MongoDB </li>
 <!----- <li> </li> ---->
 </ul>
 </p>
