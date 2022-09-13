@@ -13,12 +13,11 @@ This is the client-side page for my "Family Guy Quotes!" API, which is a spinoff
 <h3 align="left">Quick facts about this project:</h3>
 <p align="left">
 <ul>
-<li> Front-end created using HTML, CSS, & JavaScript </li>
-<li> All the Front-end code was written from scratch </li>
-<!--- <li> This page is Hosted on <a href="https://app.netlify.com/drop"> Netlify </a> </li> --->
-<li> I also created the server-side API code using Node.js/Express </li> 
+<li> Front-end coded with HTML5, CSS3, & JavaScript</li>
+<li> Server-side API coded with Node.js/Express </li> 
+<li> This page is Hosted on <a href="https://app.netlify.com/drop"> Netlify </a> </li> 
 <li> The API is hosted on Heroku </li>
-<li> The MongoDB quotes Database currently has over 100 quotes (and growing!) </li>
+<li> Over 100 quotes and growing stored on MongoDB</li>
 <!----- <li> </li> ---->
 </ul>
 </p>
